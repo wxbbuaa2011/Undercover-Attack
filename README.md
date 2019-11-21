@@ -22,8 +22,6 @@ The contact email is qifeizhou@pku.edu.cn
     jsma: JSMA, JSMA*(texts)
     cw: CW
 
---> data: 20 ImageNet classes are exhibited in imagenet_classes.txt
-
 --> models: the definitions of 5-layer convolution network, PreActResNet and RNNs for IMDB
 
 
