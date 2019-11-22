@@ -3,15 +3,13 @@
 ## Description
 This repository includes the source code of the paper "Detecting Adversarial Examples via Undercover Attack". Please cite our paper when you use this program! 😍
 
-## Report issues
-Please let us know, if you encounter any problems.
-
-The contact email is qifeizhou@pku.edu.cn
+## Model overview
+![](https://i.loli.net/2019/11/22/STtspcuDf6PVUqb.png)
 
 a quick glance of the use case of undercover attack on images and texts:
 example_images.ipynb and example_texts.ipynb
 
-![Image](pic.png)
+![](https://i.loli.net/2019/11/22/R4jFAODNUegpLvs.png)
 
 benign example criterion:  1.1444092e-05;
  
@@ -53,5 +51,10 @@ original criterion loss: 0.00 -- adversarial criterion loss: 0.43
     boundary attack is implemented by Foolbox
 
 --> models: the definitions of 5-layer convolution network, PreActResNet and RNNs for IMDB, ESIM for Quora
+
+## Report issues
+Please let us know, if you encounter any problems.
+
+The contact email is qifeizhou@pku.edu.cn
 
 
