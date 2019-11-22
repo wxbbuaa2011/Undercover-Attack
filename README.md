@@ -6,8 +6,13 @@ This repository includes the source code of the paper "Detecting Adversarial Exa
 ## Model overview
 ![](https://i.loli.net/2019/11/22/STtspcuDf6PVUqb.png)
 
+## Quick glance
 a quick glance of the use case of undercover attack on images and texts:
-example_images.ipynb and example_texts.ipynb
+
+```
+example_images.ipynb
+example_texts.ipynb
+```
 
 ![](https://i.loli.net/2019/11/22/R4jFAODNUegpLvs.png)
 
