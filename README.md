@@ -49,18 +49,41 @@ original criterion loss: 0.00
 
 adversarial criterion loss: 0.43
 
+## Adversary
+Five attack methods are implemented in this package.
+
+1. FGSM: FGSM, BIM
+2. JSMA: JSMA, JSMA*(texts)
+3. CW: CW
+4. Boundary Attack (Implemented by Foolbox)
+
+## Models
+### IMDB
+
+1. The definitions of 5-layer convolution network
+2. PreActResNet 
+3. RNNs
+
+### Quora
+ESIM
+   
 ## Train
---> xxx_pre_train: train models on normal examples
+### Train models on normal examples
 
---> xxx_adv: undercover training, undercover attack and performance analysis
+```
+python cifar10_pre_train.py
+python mnist_pre_train.py
+python movie_pre_train.py
+python quora_pre_train.py
+```
 
---> adversary: five attack methods are implemented in this package
-    fgsm: FGSM, BIM
-    jsma: JSMA, JSMA*(texts)
-    cw: CW
-    boundary attack is implemented by Foolbox
+### Undercover training, undercover attack and performance analysis
 
---> models: the definitions of 5-layer convolution network, PreActResNet and RNNs for IMDB, ESIM for Quora
+```
+python cifar10_adv.py
+python mnist_adv.py
+python movie_adv.py
+```
 
 ## Report issues
 Please let us know, if you encounter any problems.
